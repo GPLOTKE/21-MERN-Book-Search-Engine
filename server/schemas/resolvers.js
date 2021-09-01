@@ -13,7 +13,21 @@ const resolvers = {
     },
 
     Mutation: {
+        createUser: async () => {
 
+        },
+
+        login: async () => {
+
+        },
+
+        saveBook: async () => {
+
+        },
+
+        deleteBook: async () => {
+
+        }
     },
 };
 
