@@ -10,3 +10,25 @@ mutation loginUser($email: String!, $password: String!) {
   }
 }
 `;
+
+export const CREATE_USER = gql `
+mutation createUser($username: String!, $password: String!, $email: String!) {
+  User(username: $username, password: $password, email: $email) {
+    user {
+      _id
+      username
+      email
+      bookCount
+      savedBooks {
+        authors
+        bookId
+        image
+        link
+        title
+        description
+      }
+    }
+    token
+  }
+}
+`;
