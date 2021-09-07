@@ -13,6 +13,14 @@ type Query {
     saveBook(input: SaveBookInput!): User
     removeBook(bookId: ID!): User
   }
+
+  type User {
+    _id: ID!
+    username: String!
+    email: String!
+    bookCount: Int
+    savedBooks: [Book]
+  }
 `;
 
 module.exports = typeDefs;
