@@ -1,3 +1,10 @@
+//imports module
+const writeme = require('writemereadme')
+
+//calls the function
+writeme.init();
+
+
 const express = require('express');
 const path = require('path');
 const { ApolloServer } = require('apollo-server-express');
