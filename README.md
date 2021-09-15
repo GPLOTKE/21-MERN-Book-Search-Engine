@@ -56,6 +56,9 @@
   This application is covered by <a href="https://opensource.org/licenses/MIT"> the MIT License</a> license. 
 
   --------------------------- 
- 
+
+ Repository URL: https://github.com/GPLOTKE/21-MERN-Book-Search-Engine
+
+ Deployed Application URL: Coming soon to Heroku
 
   This README was generated with [writemeREADME](https://github.com/proto133/writemeREADME) 
