@@ -5,7 +5,6 @@ import SearchBooks from './pages/SearchBooks';
 import SavedBooks from './pages/SavedBooks';
 import Navbar from './components/Navbar';
 import ApolloClient from 'apollo-boost';
-import './App.css'
 
 const client = new ApolloClient({
   request: operation => {
