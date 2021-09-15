@@ -5,7 +5,7 @@
   ## 👇  Description  👇
 ---
   
-  This application was refractored from a Google Books API search engine using RESTful API to a search engine using GraphQL API with Apollo Server. It has a React front end, MongoDB and Node.JS/Express.js server.
+  This application is for searching for books! It was refractored from a Google Books API search engine using RESTful API to a search engine using GraphQL API with Apollo Server. It has a React front end, MongoDB and Node.JS/Express.js server.
  
   ## Table of Contents 
   - [Description](#--description--)
@@ -35,7 +35,7 @@
 
   |                                |                                |                                | 
   |:------------------------------------------------------:|:------------------------------------------------------:|:------------------------------------------------------:|
-  | <img alt="" href="" src="" width="150" height="150"> |<img alt="" href="" src="" width="150" height="150">|<img alt="" href="" src="" width="150" height="150">|
+  | <img alt="screenshot" href="./assets/images/bookSearchScreenshot.PNG" src="./assets/images/bookSearchScreenshot.PNG" width="600" height="400"> 
   |                                                        |                                                        |                                                        |
   |                                                        |                                                        |                                                        |   
 
